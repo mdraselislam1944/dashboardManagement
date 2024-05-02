@@ -1,0 +1,106 @@
+{
+  "auth": [
+    {
+      "id": "1",
+      "email": "mdraselislam1944@gmail.com",
+      "password": "12345678",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "jucse28.380@gmail.com",
+      "password": "12345678",
+      "role": "member"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Project A",
+      "description": "This is project A description.",
+      "owner": "John Doe",
+      "status": "Active",
+      "tasks": "This is create a dynamic website system",
+      "teamMembers": [
+        1,
+        2
+      ],
+      "recentActivities": [
+        "Task 1 status changed to 'In Progress' by Alice Johnson.",
+        "Task 2 completed by Bob Brown."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Project B",
+      "description": "This is project B description.",
+      "owner": "Jane Smith",
+      "status": "Active",
+      "tasks": "the is create website system",
+      "teamMembers": [
+        null,
+        null
+      ],
+      "recentActivities": []
+    },
+    {
+      "id": "3",
+      "name": "Project C",
+      "description": "This is project C description.",
+      "owner": "Alice Johnson",
+      "status": "Inactive",
+      "tasks": "This is create a dynamic website system",
+      "teamMembers": [
+        {
+          "id": 5,
+          "name": "Ellen Davis",
+          "role": "Designer"
+        }
+      ],
+      "recentActivities": []
+    },
+    {
+      "id": "4",
+      "name": "Project D",
+      "description": "This is project D description.",
+      "owner": "Bob Brown",
+      "status": "Active",
+      "tasks": "This is create a dynamic website system",
+      "teamMembers": [
+        {
+          "id": 6,
+          "name": "Frank Johnson",
+          "role": "Developer"
+        }
+      ],
+      "recentActivities": []
+    },
+    {
+      "id": "5",
+      "name": "Project E",
+      "description": "This is project E description.",
+      "owner": "Chris Wilson",
+      "status": "Inactive",
+      "tasks": "This is create a dynamic website system",
+      "teamMembers": [
+        {
+          "id": 7,
+          "name": "George Black",
+          "role": "Project Manager"
+        },
+        {
+          "id": 8,
+          "name": "Hannah Green",
+          "role": "Developer"
+        }
+      ],
+      "recentActivities": [
+        {
+          "id": 3,
+          "timestamp": "2024-04-30T10:00:00Z",
+          "description": "Task 4 status changed to 'In Progress' by David White."
+        }
+      ]
+    }
+  ]
+}
